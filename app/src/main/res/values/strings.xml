@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">notatecnica</string>
+    <string name="matricula">Número de matrícula</string>
+    <string name="nombres">Nombres completos</string>
+    <string name="apellidos">Apellidos completos</string>
+    <string name="edad">Edad</string>
+    <string name="id">ID de carrera</string>
+    <string name="registro_de_estudiantes">Registro de Estudiantes</string>
+    <string name="consultar">Consultar</string>
+    <string name="modificar">Modificar</string>
+    <string name="registrar">Registrar</string>
+    <string name="eliminar">Eliminar</string>
+</resources>
