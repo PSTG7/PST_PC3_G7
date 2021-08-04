@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         String edadText= edad.getText().toString();
         String idCarreraText= idCarrera.getText().toString();
 
-        if(!matriculaText.isEmpty()||!nombresText.isEmpty()||!apellidosText.isEmpty()||!edadText.isEmpty()||!idCarreraText.isEmpty()){
+        if(!matriculaText.isEmpty()&&!nombresText.isEmpty()&&!apellidosText.isEmpty()&&!edadText.isEmpty()&&!idCarreraText.isEmpty()){
             bd.execSQL("insert into estudiantes (id_estudiante, nombres,apellidos,edad,id_carrera)"+"values ("+matriculaText+",'"+nombresText+"','"+apellidosText+"',"+edadText+",'"+idCarreraText+"')");
             bd.close();
             matricula.setText("");
